@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starlight Page 2</title>
+    <script src="https://kit.fontawesome.com/0c390bb7a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+    <!-- <link rel="stylesheet" href="EzCloud.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+        @font-face{
+            font-display:swap;
+            font-family:myFont;
+        src:url(https://res.cloudinary.com/oluwatoyinah/raw/upload/v1662495482/gomoney/FontsFree-Net-SF-Pro-Rounded-Heavy_qw9bps.woff2)
+        }
+        * {
+            font-family: myFont;
+        }
+        body {
+            background-image: url('./IMAGES/Starlight\ Background.png');
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: cover;
+            overflow-x: hidden;
+        }
+        .first {
+            position: relative;
+        }
+        .deserve {
+            font-size: 70px;
+            color: whitesmoke;
+            font-weight: bolder;
+            text-align: center;
+            line-height: 85px;
+            filter: drop-shadow(5px 8px rgba(15,26,62,.5));
+            /* text-shadow: 8px 8px #0f225c; */
+        }
+        .one {
+            width: fit-content;
+        }
+        .two {
+            font-size: 25px;
+            font-weight: bold;
+            color: whitesmoke;
+            text-align: center;
+        }
+        .three {
+            padding: 25px 50px;
+            border-radius: 70px;
+            background-color: #d83e43;
+            color: whitesmoke;
+            font-weight: bold;
+            text-align: center;
+            box-shadow: inset 0 6.3801px 28.6996px 2.29597px #550505;
+            filter: drop-shadow(5px 10px rgba(15,26,62,.5));
+            font-size: 20px;
+        }
+        .three:hover {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        .four {
+            height: fit-content;
+            border-radius: 70px;
+            width: fit-content;
+            transform: rotate(-6deg);
+            animation: pulse 4s ease-in infinite;
+
+        }
+        .starEyes-0 {
+            width: 70px;
+            height: 70px;
+        }
+        .inputWish {
+            height: 80px;
+            width: 73%;
+            border-radius: 15px;
+        }
+        .inputWish::placeholder {
+            font-size: 25px;
+            color: mediumblue;
+        }
+   
+        .starEyes-5 {
+            position: absolute;
+            right: 5%;
+            top: 21%;
+            width: 80px;
+            height: 80px;
+        }
+        .starEyes-8 {
+            margin-left: 5px;
+            margin-bottom: 5px;
+            width: 15px;
+            height: 20px;
+        }
+        .goMoney {
+            font-size: 20px;
+            font-weight: bold;
+            color: whitesmoke;
+            text-align: center;
+            line-height: 10px;
+        }
+        .T_C {
+            font-size: 18px;
+            color: darkorange;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .T_C:hover {
+            color: darkorange;
+        }
+        .T_Cdiv {
+            width: fit-content;
+            line-height: 0px;
+        }
+        h1 {
+            font-size: 72px;
+            background: -webkit-linear-gradient(90deg,#ffe299,#fff);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        @keyframes pulse {
+            25% {
+                transform: scale(0.9);
+            }
+
+            75% {
+                transform: scale(1.1);
+            }
+        }
+        @media screen and (max-width: 800px) {
+            .deserve {
+                font-size: 50px !important;
+            }
+            .two {
+                font-size: 20px;
+            }
+            .starEyes-5 {
+                width: 50px;
+                height: 50px;
+            }
+            .inputWish {
+                margin-top: 50px;
+            height: 60px;
+            }
+            .inputWish::placeholder {
+                font-size: 20px;
+            }
+            .three {
+            padding: 20px 30px;
+          }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid first">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <div class="mx-auto py-5 one">
+                    <img class="img-fluid img-responsive starEyes-0" src="./IMAGES/StarEyes @1.png" alt="">
+                </div>
+                <img class="img-fluid img-responsive starEyes-5" src="./IMAGES/StarEyes 5.png" alt="">
+                <h1 class="deserve">make a wish</h1>
+                <p class="two">let’s make your wish come true</p>
+                <input type="text" class="form-control mx-auto inputWish pl-4" placeholder="Enter your wish">
+                <div class="mx-auto four py-5"><a id="demo2" class="three" href="file:///C:/Users/User/ADEMOLA%20CODE%20LIBRARY/MY%20PRACTICAL%20FOLDER/bootsrap/GoMoney/starlight-3.html" onclick="cont()">CONTINUE <img class="starEyes-8" src="./IMAGES/StarEyes 8.png" alt=""></a></div>
+                
+                <p class="goMoney pt-5 mt-4">a gomoney challenge 2022</p>
+                <div class="mx-auto pb-5 T_Cdiv"><img src="./IMAGES/StarEyes 7.png" alt=""> <a href="" class="T_C" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">T&C Apply</a></div>                
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+
+            <!-- Modal Content -->
+            <div style="border-radius: 10px;" class="modal-content">
+                <div class="modal-header bg-white py-2 text-left">
+                <h4 style="font-size: 30px; color: #000000;" class="modal-title text-left" id="exampleModalLabel">About the Campaign</h4>
+                
+                <button title="Close" type="button" class="close pr-3" data-dismiss="modal" aria-label="Close">
+                    <span style="font-size: 40px; color: #bdbdbd;" aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body px-3 py-4" style="color: #000000;">
+                    <p>Tough times don't last, but tough people do! We understand that everyone has wishes or those things on your wishlist you will love to acquire. You have worked hard and you deserve to get that which you wish for.</p>
+                    <p>This is why we, your friends at gomoney, have put together the ‘What do you deserve’ challenge to enable our new and existing customers to make a wish and we will grant these wishes. Yes, wishes, from multiple entries.</p>
+                    <p>But to qualify, you have to meet certain terms and conditions:</p>
+                    <ul>
+                        <li>You must have an active gomoney account</li>
+                        <li>Be sure you are following the gomoney page on Facebook, Instagram and Twitter</li>
+                        <li>You must be available to claim your wish if selected</li>
+                        <li>All information must be correct for easy identification</li>
+                        <li>You must be 18 years and above with proof of identification</li>
+                    </ul>
+                    <p>Share the challenge with your friends and family to have a higher chance of winning directly or indirectly.</p>
+                    <p>Tip: Owning a physical card will be an advantage.</p>
+                    <h5>Disqualification:</h5>
+                    <ul>
+                        <li>Carefully write down what you deserve in the text box as multiple and unclear entries could lead to disqualification</li>
+                        <li>Please insert the right contact details and ensure you monitor your means of contact as failure to establish a connection after several attempts could lead to disqualification</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                <button type="submit" class="btn btn-primary btn default pull-left ml-auto" data-dismiss="modal">
+                    OK
+                </button>
+                <!-- <p><em>Need <a href="#">help?</a></em></p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function cont() {
+            document.getElementById('demo2').innerHTML = 'LOADING...'
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
+</html>
